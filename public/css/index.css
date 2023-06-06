@@ -1,0 +1,140 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box div {
+    background: green;
+}
+
+.box p {
+    background: red;
+}
+
+.brown {
+    color: white;
+    background: brown;
+}
+
+.lesson-one-task-eight ul > li {
+    background: red;
+}
+
+.header-button + span {
+    background: red;
+}
+
+.susid ~ p {
+    color: white;
+    background: blue;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+.first-task > li:first-child {
+    color: white;
+}
+
+.second-task > ul:first-child > li:first-child {
+    color: yellow;
+}
+
+.third-task > ul:last-child > li:first-child {
+    color: yellow;
+}
+
+.four-task > li:last-child {
+    color: yellow;
+}
+
+.five-task > ul:last-child > li:last-child {
+    color: white;
+}
+
+.only-child-task > div:only-child {
+    color: red;
+}
+
+.seven-task > p:first-of-type {
+    background: red;
+}
+
+.eight-task > p:last-of-type {
+    background: red;
+}
+
+.text-wrapper > p:only-of-type {
+    background: yellow;
+}
+
+.lesson-three-task-one ul a[href] {
+    color: white;
+}
+
+.lesson-three-task-two > [value] {
+    color: yellow;
+}
+
+.lesson-three-task-three > [value='3'] {
+    background: red;
+}
+
+.lesson-three-task-four > [class~='primary'] {
+    background: blue;
+}
+
+.lesson-three-task-five > [class|='secondary'] {
+    background: red;
+}
+
+.lesson-three-task-six ul [class^='b'] {
+    background: white;
+    color: green;
+}
+
+.lesson-three-task-seven ul [class*='on'] {
+    background: white;
+    color: green;
+}
+
+.lesson-three-task-eight li span[class$='s'] {
+    background: white;
+    color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+   color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+.lesson-three-task-twelve li::before {
+    content: "➤";
+}
+
+.lesson-three-task-thirteen li::after {
+    content: "➤";
+}
