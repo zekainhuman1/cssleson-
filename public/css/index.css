@@ -31,7 +31,7 @@ h1 {
     background: brown;
 }
 
-.lesson-one-task-eight ul > li {
+ul > li {
     background: red;
 }
 
@@ -123,7 +123,7 @@ h1 {
    color: red;
 }
 
-.lesson-three-task-ten p::first-line {
+.lesson-three-task-ten::first-line {
     background: yellow;
 }
 
